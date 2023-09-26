@@ -16,7 +16,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
-      ></script>
+    ></script>
     <link rel="stylesheet" href="index.css" />
     <script src="./index.js"></script>
   </head>
@@ -53,7 +53,12 @@
           <div class="burger hide">
             <img src="./svgs/burger.svg" alt="" />
           </div>
-          <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" class="nav-close hide">
+          <svg
+            width="20"
+            height="20"
+            xmlns="http://www.w3.org/2000/svg"
+            class="nav-close hide"
+          >
             <path
               d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
               fill="#000"
@@ -64,7 +69,7 @@
         <!-- Main Content -->
         <main>
           <div class="content">
-            <h1>We’re building a better freelancer marketplace.</h2>
+            <h1>We’re building a better freelancer marketplace.</h1>
             <p>
               5% flat fee, improved client/freelancer rating system and human
               mediators. No nonsense.
@@ -92,13 +97,15 @@
     <!-- End Hero -->
     <!-- Register -->
     <figure class="reg hide">
-      <img src="./imgs/photo1.jpeg" alt="" />
+      <div class="img-container">
+        <img src="./imgs/photo1.jpeg" alt="" />
+      </div>
       <figcaption>
         <svg
           width="40"
           height="40"
           xmlns="http://www.w3.org/2000/svg"
-          class="close-section"
+          class="close-reg x"
         >
           <path
             d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
@@ -107,7 +114,7 @@
           />
         </svg>
         <div>
-          <h1>Get Notified!</h2>
+          <h1>Get Notified!</h1>
           <p>
             Pre-register and be one of the first to learn when Tskr goes live
             (and receive a special bonus at launch)!
@@ -121,12 +128,12 @@
     </figure>
     <!-- End Register -->
     <!-- About Section -->
-    <section class="about hide" id="About">
+    <section class="about slide hide" id="About">
       <header>
-        <div class="close close-section">
+        <div class="close x">
           <img src="./svgs/close.svg" alt="" />
         </div>
-        <h2>About Tskr</h2>
+        <h1>About Tskr</h1>
         <p>Who we are, what we do, and why we do it.</p>
       </header>
 
@@ -134,47 +141,49 @@
 
       <section class="paragraph">
         <div class="cont-90">
-        <p>
-          Tskr is a freelancer marketplace designed with transparency and
-          simplicity at its core. Our flat 5% fee structure offers clarity for
-          both freelancers and clients, streamlining their collaborations.
-          Eschewing complex bidding systems, Tskr emphasizes a fair environment,
-          where the focus is on skills and expertise. Additionally, with
-          hands-on human support and stringent safeguards, we work diligently to
-          maintain the platform's integrity and protect the interests of our
-          community members. At Tskr, our aim is to provide an accessible space
-          where freelancers and clients can connect and work together
-          effectively.
-        </p>
-      </div>
+          <p>
+            Tskr is a freelancer marketplace designed with transparency and
+            simplicity at its core. Our flat 5% fee structure offers clarity for
+            both freelancers and clients, streamlining their collaborations.
+            Eschewing complex bidding systems, Tskr emphasizes a fair
+            environment, where the focus is on skills and expertise.
+            Additionally, with hands-on human support and stringent safeguards,
+            we work diligently to maintain the platform's integrity and protect
+            the interests of our community members. At Tskr, our aim is to
+            provide an accessible space where freelancers and clients can
+            connect and work together effectively.
+          </p>
+        </div>
       </section>
 
       <section class="section1 hide">
         <div class="cont-90 flex">
-        <img src="./imgs/photo1.jpeg" alt="" />
-        <p>
-          Tskr was born from the frustrations and challenges faced by its
-          once-freelancer founders. Having navigated the turbulent waters of
-          competing platforms, they firsthand witnessed the deteriorating
-          dynamics - the inundation of spam, escalating scams, rising costs, and
-          the often-unfair power imbalances between clients and freelancers.
-          Over time, these platforms seemed to stray from their original
-          mission, often at the expense of the very freelancers they were meant
-          to serve.
-          <br />
-          <br />
-          Understanding the gravity of what freelancers risk when they commit to
-          such platforms - essentially staking their livelihoods and reputations
-          - the founders felt a compelling responsibility to create something
-          different. They believed that any platform acting as a bridge between
-          freelancers and clients should do so with integrity, transparency, and
-          good faith. This belief laid the cornerstone for Tskr. Built on the
-          principles of fairness and respect, Tskr is more than just a
-          marketplace - it's a promise to freelancers and clients alike that
-          they will be supported and treated justly in their professional
-          endeavors.
-        </p>
-      </div>
+          <div class="img-container">
+            <img src="./imgs/photo1.jpeg" alt="" />
+          </div>
+          <p>
+            Tskr was born from the frustrations and challenges faced by its
+            once-freelancer founders. Having navigated the turbulent waters of
+            competing platforms, they firsthand witnessed the deteriorating
+            dynamics - the inundation of spam, escalating scams, rising costs,
+            and the often-unfair power imbalances between clients and
+            freelancers. Over time, these platforms seemed to stray from their
+            original mission, often at the expense of the very freelancers they
+            were meant to serve.
+            <br />
+            <br />
+            Understanding the gravity of what freelancers risk when they commit
+            to such platforms - essentially staking their livelihoods and
+            reputations - the founders felt a compelling responsibility to
+            create something different. They believed that any platform acting
+            as a bridge between freelancers and clients should do so with
+            integrity, transparency, and good faith. This belief laid the
+            cornerstone for Tskr. Built on the principles of fairness and
+            respect, Tskr is more than just a marketplace - it's a promise to
+            freelancers and clients alike that they will be supported and
+            treated justly in their professional endeavors.
+          </p>
+        </div>
       </section>
 
       <section class="section2">
@@ -247,7 +256,7 @@
           </figure>
         </div>
       </section>
-      <hr>
+      <hr />
 
       <section class="section3 flex">
         <div>
@@ -304,7 +313,9 @@
             </p>
           </section>
         </div>
-        <img src="./imgs/photo1.jpeg" alt="" />
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
       </section>
 
       <section class="section4">
@@ -342,19 +353,21 @@
     <!-- End About Section -->
 
     <!-- Start Us Section -->
-    <section class="us hide">
+    <section class="us slide hide">
       <header>
-        <div class="close close-section">
+        <div class="close x">
           <img src="./svgs/close.svg" alt="" />
         </div>
-        <h2>Us & Them</h2>
+        <h1>Us & Them</h1>
         <p>How we’ve improved on the freelancer marketplace concept.</p>
       </header>
 
       <hr />
 
-      <figure >
-        <img src="./imgs/photo1.jpeg" alt="" />
+      <figure>
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
         <figcaption>
           <h4>Transparency, No Hidden Costs</h4>
           <p>
@@ -368,8 +381,10 @@
         </figcaption>
       </figure>
 
-      <figure >
-        <img src="./imgs/photo1.jpeg" alt="" />
+      <figure>
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
         <figcaption>
           <h4>Fighting Digital Nuisances</h4>
           <p>
@@ -383,8 +398,10 @@
         </figcaption>
       </figure>
 
-      <figure >
-        <img src="./imgs/photo1.jpeg" alt="" />
+      <figure>
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
         <figcaption>
           <h4>Human-Mediated Interactions</h4>
           <p>
@@ -398,8 +415,10 @@
         </figcaption>
       </figure>
 
-      <figure >
-        <img src="./imgs/photo1.jpeg" alt="" />
+      <figure>
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
         <figcaption>
           <h4>Flexible Payment Options</h4>
           <p>
@@ -414,7 +433,9 @@
       </figure>
 
       <figure>
-        <img src="./imgs/photo1.jpeg" alt="" />
+        <div class="img-container">
+          <img src="./imgs/photo1.jpeg" alt="" />
+        </div>
         <figcaption>
           <h4>Skill-Based, Not Pay-to-Win</h4>
           <p>
@@ -434,12 +455,12 @@
     <!-- End Us Section -->
 
     <!-- Start news Section -->
-    <section class="news hide">
+    <section class="news slide hide">
       <header>
-        <div class="close close-section">
+        <div class="close x">
           <img src="./svgs/close.svg" alt="" />
         </div>
-        <h2>Newsroom</h2>
+        <h1>Newsroom</h1>
         <p>
           Give your visitor a smooth online experience with a solid UX design
         </p>
@@ -455,7 +476,7 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>Start an online business and work from home</h2>
+            <h1>Start an online business and work from home</h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -472,7 +493,7 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>Engendering a culture of professional development</h2>
+            <h1>Engendering a culture of professional development</h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -491,9 +512,9 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>
+            <h1>
               4 Learning Management System Design Tips For Better eLearning
-            </h2>
+            </h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -510,7 +531,7 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>Hey Job Seeker, It’s Time To Get Up And Get Hired</h2>
+            <h1>Hey Job Seeker, It’s Time To Get Up And Get Hired</h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -529,7 +550,7 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>Reference Design UI/UX Design</h2>
+            <h1>Reference Design UI/UX Design</h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -546,7 +567,7 @@
               <span>Business</span>
               <span>UI Design</span>
             </div>
-            <h2>Engendering a culture of professional development</h2>
+            <h1>Engendering a culture of professional development</h1>
             <p>
               Many desktop publishing packages and web page editors now use
               Lorem Ipsum as their default model text, and a search for 'lorem
@@ -560,12 +581,12 @@
     <!-- End News Section -->
 
     <!-- Start FAQ -->
-    <section class="faq hide">
+    <section class="faq slide hide">
       <header>
-        <div class="close close-section">
+        <div class="close x">
           <img src="./svgs/close.svg" alt="" />
         </div>
-        <h2>Frequently Asked Questions</h2>
+        <h1>Frequently Asked Questions</h1>
         <p>
           Give your visitor a smooth online experience with a solid UX design
         </p>
@@ -574,224 +595,512 @@
       <hr />
 
       <div class="cont-90">
-      <div class="tabs flex">
-        <span>For Everyone</span>
-        <span>For Clients</span>
-        <span>For Freelancers</span>
+        <div class="tabs flex">
+          <span>For Everyone</span>
+          <span>For Clients</span>
+          <span>For Freelancers</span>
+        </div>
+        <div class="sec-container">
+          <section class="payments">
+            <h4>Payments</h4>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What methods of payments are supported?
+                  </button>
+                </h1>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Cras vitae ac nunc orci. Purus amet tortor non at
+                      phasellus ultricies hendrerit. Eget a, sit morbi nunc sit
+                      id massa. Metus, scelerisque volutpat nec sit vel donec.
+                      Sagittis, id volutpat erat vel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can I cancel at anytime?
+                  </button>
+                </h1>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How do I get a receipt for my purchase?
+                  </button>
+                </h1>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Which license do I need?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    How do I get access to a theme I purchased?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="suggestions">
+            <h4>Suggestions</h4>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What methods of payments are supported?
+                  </button>
+                </h1>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Cras vitae ac nunc orci. Purus amet tortor non at
+                      phasellus ultricies hendrerit. Eget a, sit morbi nunc sit
+                      id massa. Metus, scelerisque volutpat nec sit vel donec.
+                      Sagittis, id volutpat erat vel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can I cancel at anytime?
+                  </button>
+                </h1>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How do I get a receipt for my purchase?
+                  </button>
+                </h1>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Which license do I need?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    How do I get access to a theme I purchased?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="payments">
+            <h4>Payments</h4>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What methods of payments are supported?
+                  </button>
+                </h1>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Cras vitae ac nunc orci. Purus amet tortor non at
+                      phasellus ultricies hendrerit. Eget a, sit morbi nunc sit
+                      id massa. Metus, scelerisque volutpat nec sit vel donec.
+                      Sagittis, id volutpat erat vel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can I cancel at anytime?
+                  </button>
+                </h1>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How do I get a receipt for my purchase?
+                  </button>
+                </h1>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Which license do I need?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    How do I get access to a theme I purchased?
+                  </button>
+                </h1>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="sec-container">
-      <section class="payments">
-        <h4>Payments</h4>
-        <div class="accordion" id="accordionExample">
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What methods of payments are supported?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Can I cancel at anytime?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How do I get a receipt for my purchase?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Which license do I need?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How do I get access to a theme I purchased?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="suggestions">
-        <h4>Suggestions</h4>
-        <div class="accordion" id="accordionExample">
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What methods of payments are supported?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Can I cancel at anytime?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How do I get a receipt for my purchase?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Which license do I need?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How do I get access to a theme I purchased?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="payments">
-        <h4>Payments</h4>
-        <div class="accordion" id="accordionExample">
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What methods of payments are supported?
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <p>Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Can I cancel at anytime?
-              </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How do I get a receipt for my purchase?
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Which license do I need?
-              </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                How do I get access to a theme I purchased?
-              </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    </div>
     </section>
     <!-- End FAQ -->
   </body>

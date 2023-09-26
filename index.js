@@ -24,8 +24,8 @@ $(()=>{
         })
     }
 
-    function closeSection(name){
-        $(`.close-section`).on('click',()=>{
+    function close(name){
+        $(`.x`).on('click',()=>{
             $('.hero').css('filter','')
             $(`.${name}`).css('display','none')
         })
@@ -35,9 +35,11 @@ $(()=>{
         trigger(section)
     }
 
-    $(`.close-section`).on('click',()=>{
+
+    $(`.x`).on('click',()=>{
+        console.log('close')
         for(let section of sections){
-            closeSection(section)
+            close(section)
         }
     })
 
